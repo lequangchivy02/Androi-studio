@@ -65,11 +65,11 @@ class _HomePage4State extends State<HomePage4> {
                                       content: TextFormField(),
                                       actions: [
                                         TextButton(
-                                            onPressed: () {},
+                                            onPressed:() => Navigator.pop(context, 'Hoàn tất'),
                                             child: Text('Hoàn tất')),
                                         TextButton(
-                                            onPressed: () {},
-                                            child: Text('Close')),
+                                            onPressed:() => Navigator.pop(context, 'Đóng'),
+                                            child: Text('Đóng')),
                                       ],
                                     );
                                });
